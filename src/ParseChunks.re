@@ -8,10 +8,10 @@ type chunk = {
 };
 
 let extractTitle = (line: string) =>
-  switch (Js.Re.exec(line, titleRegex)) {
+  switch (Js.Re.exec_( titleRegex,line)) {
   | Some(result) =>
     let captures = Js.Re.captures(result);
-    Js.Nullable.to_opt(captures[1]);
+    Js.Nullable.toOption(captures[1]);
   | None => None
   };
 
@@ -94,7 +94,7 @@ let linesToChunksImp = (lines: Gen.t(string)): Gen.t(chunk) => {
           curChunkOpt := Some({title, body: [line]});
           Some(reverseLines(curChunk));
         };
-      };        
+      };
     }
   };
   () => aux();
