@@ -2,7 +2,7 @@ devDependencies:
   '@glennsl/bs-jest': 0.6.0
   bs-platform: 8.4.2
   jest: 26.6.3
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.11:
     dependencies:
@@ -344,7 +344,7 @@ packages:
       jest-haste-map: 26.6.2
       jest-message-util: 26.6.2
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       jest-resolve-dependencies: 26.6.3
       jest-runner: 26.6.3
       jest-runtime: 26.6.3
@@ -414,7 +414,7 @@ packages:
       istanbul-lib-source-maps: 4.0.0
       istanbul-reports: 3.0.2
       jest-haste-map: 26.6.2
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       jest-util: 26.6.2
       jest-worker: 26.6.2
       slash: 3.0.0
@@ -1977,7 +1977,7 @@ packages:
       jest-get-type: 26.3.0
       jest-jasmine2: 26.6.3
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       jest-util: 26.6.2
       jest-validate: 26.6.2
       micromatch: 4.0.2
@@ -2150,7 +2150,7 @@ packages:
       integrity: sha512-YyFjePHHp1LzpzYcmgqkJ0nm0gg/lJx2aZFzFy1S6eUqNjXsOqTK10zNRff2dNfssgokjkG65OlWNcIlgd3zew==
   /jest-pnp-resolver/1.2.2_jest-resolve@26.6.2:
     dependencies:
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
     dev: true
     engines:
       node: '>=6'
@@ -2177,7 +2177,7 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-pVwUjJkxbhe4RY8QEWzN3vns2kqyuldKpxlxJlzEYfKSvY6/bMvxoFrYYzUO1Gx28yKWN37qyV7rIoIp2h8fTg==
-  /jest-resolve/26.6.2_jest-resolve@26.6.2:
+  /jest-resolve/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
       chalk: 4.1.0
@@ -2190,8 +2190,6 @@ packages:
     dev: true
     engines:
       node: '>= 10.14.2'
-    peerDependencies:
-      jest-resolve: '*'
     resolution:
       integrity: sha512-sOxsZOq25mT1wRsfHcbtkInS+Ek7Q8jCHUB0ZUTP0tc/c41QHriU/NunqMfCUWsL4H3MHpvQD4QR9kSYhS7UvQ==
   /jest-runner/26.6.3:
@@ -2210,7 +2208,7 @@ packages:
       jest-haste-map: 26.6.2
       jest-leak-detector: 26.6.2
       jest-message-util: 26.6.2
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       jest-runtime: 26.6.3
       jest-util: 26.6.2
       jest-worker: 26.6.2
@@ -2243,7 +2241,7 @@ packages:
       jest-message-util: 26.6.2
       jest-mock: 26.6.2
       jest-regex-util: 26.0.0
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       jest-snapshot: 26.6.2
       jest-util: 26.6.2
       jest-validate: 26.6.2
@@ -2279,7 +2277,7 @@ packages:
       jest-haste-map: 26.6.2
       jest-matcher-utils: 26.6.2
       jest-message-util: 26.6.2
-      jest-resolve: 26.6.2_jest-resolve@26.6.2
+      jest-resolve: 26.6.2
       natural-compare: 1.4.0
       pretty-format: 26.6.2
       semver: 7.3.4
@@ -3010,7 +3008,7 @@ packages:
       request-promise-core: 1.1.4_request@2.88.2
       stealthy-require: 1.1.1
       tough-cookie: 2.5.0
-    deprecated: 'request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142'
+    deprecated: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>=0.12.0'
@@ -3040,7 +3038,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>= 6'
@@ -3071,7 +3069,7 @@ packages:
     resolution:
       integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -3616,7 +3614,7 @@ packages:
     resolution:
       integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=

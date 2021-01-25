@@ -7,6 +7,11 @@
       "dir": "__tests__",
       "type": "dev",
       "subdirs": true
+    },
+      {
+      "dir": "iter-examples",
+      "type": "dev",
+      "subdirs": true
     }
   ],
   "package-specs": {
