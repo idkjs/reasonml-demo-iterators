@@ -2188,7 +2188,7 @@ function unlines(g) {
       var s = Curry._1(g, undefined);
       if (s !== undefined) {
         if (s === "") {
-          return /* "\n" */10;
+          return /* '\n' */10;
         }
         st.contents = {
           NAME: "Consume",
@@ -2207,7 +2207,7 @@ function unlines(g) {
     var s$1 = match$1[0];
     if (i === s$1.length) {
       st.contents = "Next";
-      return /* "\n" */10;
+      return /* '\n' */10;
     } else {
       st.contents = {
         NAME: "Consume",
@@ -3069,7 +3069,7 @@ function write_lines(mode, flags, filename, g) {
   return with_file_out(mode, flags, filename, (function (oc) {
                 return iter((function (s) {
                               Pervasives.output_string(oc, s);
-                              return Pervasives.output_char(oc, /* "\n" */10);
+                              return Pervasives.output_char(oc, /* '\n' */10);
                             }), g);
               }));
 }

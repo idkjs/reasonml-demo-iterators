@@ -209,7 +209,7 @@ function pp_token(formatter, token) {
                     },
                     _1: {
                       TAG: /* Char_literal */12,
-                      _0: /* "(" */40,
+                      _0: /* '(' */40,
                       _1: /* End_of_format */0
                     }
                   },
@@ -219,7 +219,7 @@ function pp_token(formatter, token) {
       return Format.fprintf(formatter, /* Format */{
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* ")" */41,
+                    _0: /* ')' */41,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -250,7 +250,7 @@ function pp_tokens(formatter, tokens) {
                     Format.fprintf(formatter, /* Format */{
                           _0: {
                             TAG: /* Char_literal */12,
-                            _0: /* " " */32,
+                            _0: /* ' ' */32,
                             _1: /* End_of_format */0
                           },
                           _1: " "
@@ -263,7 +263,7 @@ function pp_tokens(formatter, tokens) {
                   Format.fprintf(formatter, /* Format */{
                         _0: {
                           TAG: /* Char_literal */12,
-                          _0: /* " " */32,
+                          _0: /* ' ' */32,
                           _1: /* End_of_format */0
                         },
                         _1: " "
@@ -338,7 +338,7 @@ function output_str(name, str, k) {
   return Curry._1(k, "Close");
 }
 
-var ParseFailure = Caml_exceptions.create("Sexpr-ReasonmlDemoIterators.ParseFailure");
+var ParseFailure = /* @__PURE__ */Caml_exceptions.create("Sexpr-ReasonmlDemoIterators.ParseFailure");
 
 function $great$great$eq(p, f) {
   return {

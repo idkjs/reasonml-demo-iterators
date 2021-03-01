@@ -375,12 +375,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -419,12 +419,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -463,12 +463,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -507,12 +507,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -551,12 +551,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -600,7 +600,7 @@ Curry._2(Format.printf(/* Format */{
                   _0: /* Close_box */0,
                   _1: {
                     TAG: /* Char_literal */12,
-                    _0: /* "}" */125,
+                    _0: /* '}' */125,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Flush_newline */4,
@@ -635,12 +635,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -689,12 +689,12 @@ Curry._2(Format.printf(/* Format */{
               },
               _1: {
                 TAG: /* Char_literal */12,
-                _0: /* "[" */91,
+                _0: /* '[' */91,
                 _1: {
                   TAG: /* Alpha */15,
                   _0: {
                     TAG: /* Char_literal */12,
-                    _0: /* "]" */93,
+                    _0: /* ']' */93,
                     _1: {
                       TAG: /* Formatting_lit */17,
                       _0: /* Close_box */0,
@@ -798,7 +798,7 @@ Curry._2(Format.printf(/* Format */{
                       return Curry._2(Format.fprintf(formatter, /* Format */{
                                       _0: {
                                         TAG: /* Char_literal */12,
-                                        _0: /* "\"" */34,
+                                        _0: /* '"' */34,
                                         _1: {
                                           TAG: /* String */2,
                                           _0: /* No_padding */0,
@@ -889,7 +889,7 @@ Curry._2(Format.printf(/* Format */{
                       return Curry._2(Format.fprintf(formatter, /* Format */{
                                       _0: {
                                         TAG: /* Char_literal */12,
-                                        _0: /* "\"" */34,
+                                        _0: /* '"' */34,
                                         _1: {
                                           TAG: /* String */2,
                                           _0: /* No_padding */0,

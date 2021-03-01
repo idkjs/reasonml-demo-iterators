@@ -19,8 +19,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-  ],
+  "bs-dependencies": ["react-frp","@denommus/react-react","tasks-ml"],
   "bs-dev-dependencies": ["@glennsl/bs-jest"],
   "namespace": true,
   "refmt": 3

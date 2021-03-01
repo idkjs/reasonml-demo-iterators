@@ -578,7 +578,7 @@ function sort(cmpOpt, seq) {
   };
 }
 
-var Exit_sorted = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.Exit_sorted");
+var Exit_sorted = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.Exit_sorted");
 
 function sorted(cmpOpt, seq) {
   var cmp = cmpOpt !== undefined ? cmpOpt : Caml_obj.caml_compare;
@@ -1046,7 +1046,7 @@ function diff(eqOpt, hashOpt, c1, c2) {
   };
 }
 
-var Subset_exit = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.Subset_exit");
+var Subset_exit = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.Subset_exit");
 
 function subset(eqOpt, hashOpt, c1, c2) {
   var eq = eqOpt !== undefined ? eqOpt : Caml_obj.caml_equal;
@@ -1190,7 +1190,7 @@ function sumf(seq) {
   return sum.contents;
 }
 
-var ExitHead = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitHead");
+var ExitHead = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitHead");
 
 function head(seq) {
   var r = {
@@ -1224,7 +1224,7 @@ function head_exn(seq) {
   }
 }
 
-var ExitTake = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitTake");
+var ExitTake = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitTake");
 
 function take(n, seq, k) {
   var count = {
@@ -1251,7 +1251,7 @@ function take(n, seq, k) {
   }
 }
 
-var ExitTakeWhile = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitTakeWhile");
+var ExitTakeWhile = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitTakeWhile");
 
 function take_while(p, seq, k) {
   try {
@@ -1274,7 +1274,7 @@ function take_while(p, seq, k) {
   }
 }
 
-var ExitFoldWhile = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitFoldWhile");
+var ExitFoldWhile = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitFoldWhile");
 
 function fold_while(f, s, seq) {
   var state = {
@@ -1345,7 +1345,7 @@ function rev(seq) {
   };
 }
 
-var ExitForall = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitForall");
+var ExitForall = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitForall");
 
 function for_all(p, seq) {
   try {
@@ -1369,7 +1369,7 @@ function for_all(p, seq) {
   }
 }
 
-var ExitExists = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitExists");
+var ExitExists = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitExists");
 
 function exists(p, seq) {
   try {
@@ -1398,7 +1398,7 @@ function mem(eqOpt, x, seq) {
   return exists(Curry._1(eq, x), seq);
 }
 
-var ExitFind = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitFind");
+var ExitFind = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitFind");
 
 function find_map(f, seq) {
   var r = {
@@ -1489,7 +1489,7 @@ function length$1(seq) {
   return r.contents;
 }
 
-var ExitIsEmpty = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitIsEmpty");
+var ExitIsEmpty = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.ExitIsEmpty");
 
 function is_empty(seq) {
   try {
@@ -1744,7 +1744,7 @@ function concat_str(seq) {
   return $$Buffer.contents(b);
 }
 
-var OneShotSequence = Caml_exceptions.create("Sequence-ReasonmlDemoIterators.OneShotSequence");
+var OneShotSequence = /* @__PURE__ */Caml_exceptions.create("Sequence-ReasonmlDemoIterators.OneShotSequence");
 
 function of_in_channel(ic) {
   var first = {

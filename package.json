@@ -14,7 +14,12 @@
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "^0.6.0",
-    "bs-platform": "^8.4.2",
+    "bs-platform": "^9.0.1",
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@denommus/react-react": "^1.1.3",
+    "reason-react": "^0.9.1",
+    "tasks-ml": "idkjs/TasksML"
   }
 }
